@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sweet Basil</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid relative">
+          <a class="navbar-brand brand-color" href="index.html">
+            <img class="img-fluid logo" src="./img/logo.png" />
+          </a>
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="background-image: url('./img/banner.jpg'); height: 400px"
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3 white">Welcome to Sweet Basil</h1>
+              <h4 class="mb-3 white">Authentic Thai Cuisine</h4>
+              <a
+                data-mdb-ripple-init
+                class="btn btn-outline-light btn-lg brand-btn"
+                href="#!"
+                role="button"
+                >Order Online</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+
+    <main class="pb-4">
+      <!-- MENU -->
+      <div class="container my-5">
+        <h2 class="text-center m-6 uppercase underline">Our Story</h2>
+        <div class="container row mb-6">
+          <div class="col-sm-12 col-md-5 mb-3">
+            <img class="img-fluid" src="./img/about-us.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-7 no-padding">
+            <h3>Ottawa's Best Thai Cuisine</h3>
+            <p>
+              Sweet Basil has been delighting the palates of many Thai food fans
+              for 30+ years and has already become a fixture amongst Ottawa’s
+              fine restaurants.
+            </p>
+
+            <p>
+              Our food is quintessentially Thai and as authentic as you would
+              find in Bangkok’s finer dining establishments.
+            </p>
+
+            <p>
+              Check out such favourites as the Stuffed Chicken Wings, the
+              Panaeng, the Pad Thai, and the Pad Bai Gra Prow!
+            </p>
+
+            <p>
+              To place a PICK UP order, please use our online ordering system or
+              by calling us.
+            </p>
+
+            <p>
+              We look forward to meeting you and sharing our family`s recipes
+              with you!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mb-3 center">
+            <div
+              class="btn-group shadow-0 button-group filter-button-group"
+              role="group"
+              aria-label="portfolio filter"
+            >
+              <button
+                type="button"
+                class="btn brand-btn-outline me-2 active"
+                data-filter="*"
+                data-mdb-ripple-init
+              >
+                All
+              </button>
+              <button
+                type="button"
+                class="btn brand-btn-outline me-2"
+                data-mdb-color="dark"
+                data-filter=".appitizers"
+                data-mdb-ripple-init
+              >
+                Appitizers
+              </button>
+              <button
+                type="button"
+                class="btn brand-btn-outline me-2"
+                data-filter=".soups"
+                data-mdb-ripple-init
+              >
+                Soups
+              </button>
+              <button
+                type="button"
+                class="btn brand-btn-outline me-2"
+                data-filter=".salads"
+                data-mdb-ripple-init
+              >
+                Salads
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <!-- ROW ONE -->
+          <div class="row grid mb-2">
+            <div class="col-sm-12 col-md-6 element-item appitizers">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">1. Pao Pia Goong Tod (4 Pcs)</h5>
+                      <h5 class="d-flex ms-auto m-2">$15.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        Crispy, golden whole shrimp spring rolls, served with a
+                        delightful sweet chilli sauce.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-12 col-md-6 element-item appitizers">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">2. Satay (4 Pcs)</h5>
+                      <h5 class="d-flex ms-auto m-2">$18.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        Tender skewers of marinated beef or chicken, served with
+                        our signature rich & creamy peanut sauce.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- ROW TWO -->
+          <div class="row grid mb-2">
+            <div class="col-sm-12 col-md-6 element-item appitizers">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">
+                        3. Stuffed Chicken Wings (3 Pcs)
+                      </h5>
+                      <h5 class="d-flex ms-auto m-2">$21.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        Plump chicken wings generously stuffed with a savoury
+                        blend of glass noodles, cabbage, carrots, chicken, and
+                        pork. Paired with our homemade spicy-sweet sesame
+                        dipping sauce for the perfect bite
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-12 col-md-6 element-item appitizers">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">
+                        4. Steamed Chicken Dumplings (6 Pcs)
+                      </h5>
+                      <h5 class="d-flex ms-auto m-2">$18.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        Steamed to perfection. Topped with peanuts, green
+                        onions, fried shallots and our home-made peanut sauce.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- ROW THREE -->
+          <div class="row grid mb-2">
+            <div class="col-sm-12 col-md-6 element-item soups">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">4. Tom Yum Goong</h5>
+                      <h5 class="d-flex ms-auto m-2">$9.50</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        A fragrant hot and sour soup featuring a clear broth
+                        infused with aromatic lemongrass, galangal, and fresh
+                        chilies. Packed with succulent shrimp and mushrooms,
+                        this dish offers a delightful balance of spice and
+                        tanginess, making it a must-try for lovers of bold
+                        flavors. (Medium Spice)
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-12 col-md-6 element-item soups">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">5. Tom Kha Goong</h5>
+                      <h5 class="d-flex ms-auto m-2">$9.50</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        A comforting hot and sour soup that combines tender
+                        shrimp and mushrooms in a creamy coconut milk broth.
+                        Infused with fragrant galangal, lemongrass, and a hint
+                        of chili, this dish delivers a delightful balance of
+                        flavours that is both soothing and mildly spicy. (Mild
+                        Spice)
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- ROW FOUR -->
+          <div class="row grid mb-2">
+            <div class="col-sm-12 col-md-6 element-item salads">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">6. Yum Sweet Basil</h5>
+                      <h5 class="d-flex ms-auto m-2">$19.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        Succulent shrimp combined with crisp iceberg lettuce,
+                        juicy tomatoes, fresh cucumbers, and fragrant
+                        lemongrass. Tossed in a mildly spicy lime dressing and
+                        garnished with aromatic fresh herbs for a burst of
+                        vibrant flavours. (Mild Spice)
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-12 col-md-6 element-item salads">
+              <table class="table table-striped card menu-list">
+                <!-- Table Header -->
+                <thead>
+                  <tr>
+                    <th class="d-flex menu-item" width="100%">
+                      <h5 class="d-flex m-2">7. Som Tum</h5>
+                      <h5 class="d-flex ms-auto m-2">$20.00</h5>
+                    </th>
+                  </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <p class="m-2">
+                        A fiery papaya salad featuring tender shrimp, ripe
+                        tomatoes, crunchy peanuts, and a mix of fresh herbs and
+                        chilies. Bursting with bold, spicy flavours and vibrant
+                        textures. (Spicy)
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MENU END -->
+
+      <div class="container lightbox" data-mdb-lightbox-init>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-1.jpg"
+              data-mdb-img="./img/plates/plate-1.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-2.jpg"
+              data-mdb-img="./img/plates/plate-2.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-3.jpg"
+              data-mdb-img="./img/plates/plate-3.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-4.jpg"
+              data-mdb-img="./img/plates/plate-4.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-5.jpg"
+              data-mdb-img="./img/plates/plate-5.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-6.jpg"
+              data-mdb-img="./img/plates/plate-6.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-7.jpg"
+              data-mdb-img="./img/plates/plate-7.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-8.jpg"
+              data-mdb-img="./img/plates/plate-8.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4 mb-4">
+            <img
+              src="./img/plates/plate-9.jpg"
+              data-mdb-img="./img/plates/plate-9.jpg"
+              alt="Traditional Thai Cuisine"
+              class="w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted">
+      <div class="footer">
+        <!-- Section: Social media -->
+        <section
+          class="container d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Follow us on social media:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section
+          class="container d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <div class="text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-5 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Sweet Basil
+                </h6>
+                <p>
+                  Sweet Basil has been delighting the palates of many Thai food
+                  fans for 30+ years and has already become a fixture amongst
+                  Ottawa’s fine established restaurants.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Menu</h6>
+                <p>
+                  <a href="/index.html" class="text-reset">Home</a>
+                </p>
+                <p>
+                  <a href="#" class="text-reset">Menu</a>
+                </p>
+                <p>
+                  <a href="#" class="text-reset">Gallery</a>
+                </p>
+                <p>
+                  <a href="#" class="text-reset">Contact Us</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-5 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i>1585 Bank St.</p>
+                <p>Ottawa, ON, K1H 7Z3</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3"></i>
+                  <a href="tel:+16137318424">+1 (613) 731-8424</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-4 copyright">
+        © 2024 Copyright: <strong>Sweet Basil</strong>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- End your project here-->
+  </body>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- MDB ESSENTIAL -->
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- MDB PLUGINS -->
+  <script type="text/javascript" src="plugins/js/all.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/packery-mode.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</html>
